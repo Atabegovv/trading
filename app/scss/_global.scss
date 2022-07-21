@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+    
+ }
+ *, *::before, *::after{
+    box-sizing: inherit;
+ }
+ body {
+    font-family: 'Aeroport' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+ }
+ ol, ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ a{
+    text-decoration: none;
+    color: #000;
+ }
+ h1, h2, h3, h4, h5, h6{
+   margin: 16px 0;
+ }
+ img{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+ .container-fluid{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 30px;
+ }

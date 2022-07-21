@@ -1,0 +1,43 @@
+//fonts
+@font-face {
+  font-family: 'Aeroport' , sans-serif;
+  src: url('../fonts/Aeroport/Aeroport-Light.woff2') format('woff2'),
+       url('../fonts/Aeroport/Aeroport-Light.woff') format('woff');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeroport' , sans-serif;
+  src: url('../fonts/Aeroport/Aeroport.woff2') format('woff2'),
+       url('../fonts/Aeroport/Aeroport.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeroport' , sans-serif;
+  src: url('../fonts/Aeroport/Aeroport-Medium.woff2') format('woff2'),
+  url('../fonts/Aeroport/Aeroport-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeroport' , sans-serif;
+  src: url('../fonts/Aeroport/Aeroport-Bold.woff2') format('woff2'),
+  url('../fonts/Aeroport/Aeroport-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeroport' , sans-serif;
+  src: url('../fonts/Aeroport/Aeroport-Italic.woff2') format('woff2'),
+       url('../fonts/Aeroport/Aeroport-Italic.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeroport' , sans-serif;
+  src: url('../fonts/Aeroport/AeroportMono.woff2') format('woff2'),
+       url('../fonts/Aeroport/AeroportMono.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
