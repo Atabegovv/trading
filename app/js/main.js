@@ -15,8 +15,32 @@ $(function () {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 1150,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 860,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 580,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+    ]
   });
     
+  $('.burger-menu').on('click', function(){
+    $('.menu , .lk').slideToggle();
+  });
 
 
 
