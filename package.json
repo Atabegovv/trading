@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://atabegovv.github.io/trading",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Atabegov",
@@ -32,5 +34,8 @@
     "rateyo": "^2.3.5",
     "sass": "^1.52.3",
     "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
